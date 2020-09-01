@@ -27,7 +27,7 @@
       "groupName": "Nerdbank.GitVersioning"
     },
     {
-      "packagePatterns": [ "^Statiq.*" ],
+      "packagePatterns": [ "^Statiq\\.*" ],
       "groupName": "Statiq"
     }
   ],
