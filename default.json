@@ -29,6 +29,10 @@
     {
       "packagePatterns": [ "^Statiq\\.*" ],
       "groupName": "Statiq"
+    },
+    {
+      "packagePatterns" : [ "^ReportGenerator$", "^ReportGenerator.Core$", "^dotnet-reportgenerator-globaltool$"],
+      "groupName" : "ReportGenerator"
     }
   ],
   "labels": [
