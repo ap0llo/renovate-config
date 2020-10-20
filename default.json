@@ -33,6 +33,10 @@
     {
       "packagePatterns" : [ "^ReportGenerator$", "^ReportGenerator.Core$", "^dotnet-reportgenerator-globaltool$"],
       "groupName" : "ReportGenerator"
+    },
+    {
+      "packagePatterns" : [ "^Microsoft.Web.LibraryManager.Cli$", "^Microsoft.Web.LibraryManager.Build$" ],
+      "groupName" : "LibMan"
     }
   ],
   "labels": [
