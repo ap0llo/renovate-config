@@ -19,6 +19,10 @@
       "groupName": "xunit"
     },
     {
+        "packageNames" : [ "xunit.runner.visualstudio" ],
+        "groupName" : "xunit.runner.visualstudio"
+    },
+    {
       "packagePatterns": [ "^NuGet\\..*" ],
       "groupName": "NuGet"
     },
