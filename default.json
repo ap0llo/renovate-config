@@ -31,11 +31,11 @@
       "groupName": "Statiq"
     },
     {
-      "packagePatterns" : [ "^ReportGenerator$", "^ReportGenerator.Core$", "^dotnet-reportgenerator-globaltool$"],
+      "packagePatterns" : [ "^ReportGenerator$", "^ReportGenerator\\.Core$", "^dotnet-reportgenerator-globaltool$"],
       "groupName" : "ReportGenerator"
     },
     {
-      "packagePatterns" : [ "^Microsoft.Web.LibraryManager.Cli$", "^Microsoft.Web.LibraryManager.Build$" ],
+      "packagePatterns" : [ "^Microsoft\\.Web\\.LibraryManager\\.*$" ],
       "groupName" : "LibMan"
     }
   ],
