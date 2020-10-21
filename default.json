@@ -3,44 +3,66 @@
     "config:base"
   ],
   "semanticCommits": false,
-  "commitMessagePrefix" : "build(deps): ",
-  "commitMessageExtra" : "to {{#if isMajor}}version {{{newMajor}}}{{else}}{{#if isSingleVersion}}version {{{toVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
+  "commitMessagePrefix": "build(deps): ",
+  "commitMessageExtra": "to {{#if isMajor}}version {{{newMajor}}}{{else}}{{#if isSingleVersion}}version {{{toVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
   "packageRules": [
     {
-      "packagePatterns": [ "^Microsoft\\.Extensions\\.Logging.*" ],
+      "packagePatterns": [
+        "^Microsoft\\.Extensions\\.Logging.*"
+      ],
       "groupName": "Microsoft.Extensions.Logging"
     },
     {
-      "packagePatterns": [ "^Microsoft\\.Extensions\\.Configuration.*" ],
+      "packagePatterns": [
+        "^Microsoft\\.Extensions\\.Configuration.*"
+      ],
       "groupName": "Microsoft.Extensions.Configuration"
     },
     {
-      "packagePatterns": [ "^xunit.*" ],
+      "packagePatterns": [
+        "^xunit.*"
+      ],
       "groupName": "xunit"
     },
     {
-        "packageNames" : [ "xunit.runner.visualstudio" ],
-        "groupName" : "xunit.runner.visualstudio"
+      "packageNames": [
+        "xunit.runner.visualstudio"
+      ],
+      "groupName": "xunit.runner.visualstudio"
     },
     {
-      "packagePatterns": [ "^NuGet\\..*" ],
+      "packagePatterns": [
+        "^NuGet\\..*"
+      ],
       "groupName": "NuGet"
     },
     {
-      "packageNames": [ "Nerdbank.GitVersioning", "nbgv" ],
+      "packageNames": [
+        "Nerdbank.GitVersioning",
+        "nbgv"
+      ],
       "groupName": "Nerdbank.GitVersioning"
     },
     {
-      "packagePatterns": [ "^Statiq\\.*" ],
+      "packagePatterns": [
+        "^Statiq\\.*"
+      ],
       "groupName": "Statiq"
     },
     {
-      "packageNames" : [ "ReportGenerator", "ReportGenerator.Core", "dotnet-reportgenerator-globaltool"],
-      "groupName" : "ReportGenerator"
+      "packageNames": [
+        "ReportGenerator",
+        "ReportGenerator.Core",
+        "dotnet-reportgenerator-globaltool"
+      ],
+      "groupName": "ReportGenerator"
     },
     {
-      "packageNames" : [ "Microsoft.Web.LibraryManager.Build", "microsoft.web.librarymanager.cli" ],
-      "groupName" : "LibMan"
+      "packageNames": [
+        "Microsoft.Web.LibraryManager.Build",
+        "microsoft.web.librarymanager.cli"
+      ],
+      "groupName": "LibMan"
     }
   ],
   "labels": [
