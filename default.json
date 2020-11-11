@@ -34,7 +34,7 @@
       "packagePatterns": [
         "^NuGet\\..*"
       ],
-      "groupName": "NuGet"
+      "groupName": "NuGet Client Libraries"
     },
     {
       "packageNames": [
