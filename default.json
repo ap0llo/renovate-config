@@ -39,7 +39,8 @@
     {
       "packageNames": [
         "Nerdbank.GitVersioning",
-        "nbgv"
+        "nbgv",
+        "Cake.GitVersioning"
       ],
       "groupName": "Nerdbank.GitVersioning"
     },
