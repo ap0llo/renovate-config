@@ -5,6 +5,7 @@
   "semanticCommits": false,
   "commitMessagePrefix": "build(deps): ",
   "commitMessageExtra": "to {{#if isMajor}}version {{{newMajor}}}{{else}}{{#if isSingleVersion}}version {{{toVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
+  "commitBody": "Updates-dependency: {{depName}}\r\nUpdates-dependency-from-version: {{currentVersion}}\r\nUpdates-dependency-to-version: {{newVersion}}",
   "packageRules": [
     {
       "packagePatterns": [
