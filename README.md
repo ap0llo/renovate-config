@@ -17,3 +17,4 @@ The preset adds:
 - Adjusts subjects of commits and Pull Requests to use captialization instead of being lower case only
 - Adds a *dependencies* label to Pull Requests
 - Adds the name of the dependency as well as the previous and new version to the commit message body
+- Disables the "Dependency Dashboard"
