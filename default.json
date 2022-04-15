@@ -68,6 +68,13 @@
       "groupName": "LibMan"
     },
     {
+      "packageNames": [
+        "Cake.Frosting",
+        "Cake.Testing"
+      ],
+      "groupName": "Cake"
+    },    
+    {
       "packagePatterns": [
         "^Grynwald.Utilities",
         "^Grynwald.Utilities\\.*"
