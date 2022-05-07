@@ -33,6 +33,12 @@
       "groupName": "xunit.runner.visualstudio"
     },
     {
+      "packageNames": [
+        "xunit.analyzers"
+      ],
+      "groupName": "xunit.analyzers"
+    },    
+    {
       "packagePatterns": [
         "^NuGet\\..*"
       ],
