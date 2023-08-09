@@ -86,7 +86,13 @@
         "^Grynwald.Utilities\\.*"
       ],
       "groupName": "Grynwald.Utilities"
-    }    
+    },
+    {
+      "packageNames": [ "Moq" ],
+      "groupName": "Moq",
+      "allowedVersions": "< 4.20",
+      "ignoreUnstable": true    
+    }
   ],
   "labels": [
     "dependencies"

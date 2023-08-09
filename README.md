@@ -18,3 +18,5 @@ The preset adds:
 - Adds a *dependencies* label to Pull Requests
 - Adds the name of the dependency as well as the previous and new version to the commit message body
 - Disables the "Dependency Dashboard"
+- Disables updating Moq to version 4.20 or later.
+  This prevents upgrading to a version that includes Sponsorlink (see https://github.com/moq/moq/issues/1372)
