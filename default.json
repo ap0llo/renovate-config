@@ -10,39 +10,27 @@
   "commitBody": "Updates-dependency: {{depName}}\r\nUpdates-dependency-from-version: {{currentVersion}}\r\nUpdates-dependency-to-version: {{newVersion}}",
   "packageRules": [
     {
-      "packagePatterns": [
-        "^Microsoft\\.Extensions\\.Logging.*"
-      ],
+      "packagePatterns": [ "^Microsoft\\.Extensions\\.Logging.*" ],
       "groupName": "Microsoft.Extensions.Logging"
     },
     {
-      "packagePatterns": [
-        "^Microsoft\\.Extensions\\.Configuration.*"
-      ],
+      "packagePatterns": [ "^Microsoft\\.Extensions\\.Configuration.*" ],
       "groupName": "Microsoft.Extensions.Configuration"
     },
     {
-      "packagePatterns": [
-        "^xunit.*"
-      ],
+      "packagePatterns": [ "^xunit.*" ],
       "groupName": "xunit"
     },
     {
-      "packageNames": [
-        "xunit.runner.visualstudio"
-      ],
+      "packageNames": [ "xunit.runner.visualstudio" ],
       "groupName": "xunit.runner.visualstudio"
     },
     {
-      "packageNames": [
-        "xunit.analyzers"
-      ],
+      "packageNames": [ "xunit.analyzers" ],
       "groupName": "xunit.analyzers"
     },    
     {
-      "packagePatterns": [
-        "^NuGet\\..*"
-      ],
+      "packagePatterns": [ "^NuGet\\..*" ],
       "groupName": "NuGet Client Libraries"
     },
     {
@@ -54,9 +42,7 @@
       "groupName": "Nerdbank.GitVersioning"
     },
     {
-      "packagePatterns": [
-        "^Statiq\\.*"
-      ],
+      "packagePatterns": [ "^Statiq\\.*" ],
       "groupName": "Statiq"
     },
     {
