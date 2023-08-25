@@ -79,6 +79,20 @@
       "groupName": "Moq",
       "allowedVersions": "< 4.20",
       "ignoreUnstable": true    
+    },
+    {
+      "packageNames": [ 
+        "Cake.Frosting", 
+        "Cake.Testing" 
+      ],
+      "groupName": "Cake"
+    },
+    {
+      "packageNames": [ 
+        "Cake.Core",
+        "Cake.Common"
+      ],
+      "groupName": "Cake Reference Assemblies"
     }
   ],
   "labels": [
