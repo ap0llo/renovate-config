@@ -93,7 +93,14 @@
         "Cake.Common"
       ],
       "groupName": "Cake Reference Assemblies"
-    }
+    },
+    {
+      "packageNames": [ 
+        "NGitLab",
+        "NGitLab.Mock"
+      ],
+      "groupName": "NGitLab"
+    }    
   ],
   "labels": [
     "dependencies"
