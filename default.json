@@ -110,5 +110,9 @@
   ],
   "labels": [
     "dependencies"
+  ],
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/bower_components/**"
   ]
 }
