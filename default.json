@@ -100,7 +100,13 @@
         "NGitLab.Mock"
       ],
       "groupName": "NGitLab"
-    }    
+    },
+    {
+      "packageNames": [
+        "dotnet-sdk"
+      ],
+      "groupName": ".NET SDK"    
+    }
   ],
   "labels": [
     "dependencies"
